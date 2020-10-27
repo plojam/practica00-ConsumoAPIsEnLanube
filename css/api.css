@@ -1,0 +1,61 @@
+body{
+    /*background-color: rgb(232,241,232);*/
+    background-image: url('../marvel-vs-dc-4k-iu.jpg');
+    background-size: cover;
+}
+
+
+fieldset{
+    /*background-color: rgb(229, 243, 244);*/
+    background-color: rgb(232, 232, 64);
+    width: 500px;
+    margin: 10% 35%;
+}
+
+form label{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+
+input[type=text], input[type=password]{
+    margin-left: 50px;
+    width: 400px;
+    background-color: rgb(243, 243, 243);
+}
+
+input[type=submit], input[type=reset], input[type=button]{
+    float: right;
+    margin-top: 20px;
+}
+
+input#agregar{
+    margin-right: 45px;
+}
+
+.error{
+    display: block;
+    margin-left: 50px;
+    font-style: italic;
+    color: red;
+}
+
+
+div{
+    clear: both;
+}
+
+#tabla, .tr, .th, .td{
+    border: black solid 1px;
+}
+
+#informacion{
+    margin-top: 10px;
+}
+
+#cred{
+    font-size: 10px;
+    margin-left: 320px;
+}

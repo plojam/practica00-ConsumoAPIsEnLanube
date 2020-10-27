@@ -1,0 +1,121 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.jumbotron, .container{
+  background-color: rgb(233, 236, 239);
+  padding: 5px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  border-radius: .3rem;
+}
+
+nav {
+  background-color: rgb(52, 58, 64);
+  padding: 10px ;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+a {
+  width: max-content;
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: #fff;
+}
+
+#navbarCollapse{
+  float: right;
+}
+
+.input1{
+  vertical-align: middle;
+  height: 1;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.btn1{
+  border: solid 1px !important;
+  color: #28a745;
+  border-color: #28a745;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.abtn{
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
