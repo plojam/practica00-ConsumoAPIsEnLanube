@@ -53,9 +53,10 @@ function datos(i){
     //var detalles = "<table id='tabla'>  <thead class='thead'> <tr class='tr'> <th class='th'> id </th> <th class='th'>Nombre </th> <th class='th'>Alterego </th> <th class='th'>Genero </th> <th class='th'>Raza </th> <th class='th'>Inclinacion </th> <th class='th'>Editor </th> <th class='th'>Imagen </th> </tr> </thead> <tbody>"
     //for(var i=0; i < info.results.length; i++){
     var heroe = document.getElementById("input1").value;
-        detalles += "<h1>  "+info.results[i].name+"</h1>"+
+        detalles += "<aside id='izq'><h1>  "+info.results[i].name+"</h1>"+
                     "<p>Nombre: "+ info.results[i].biography["full-name"] +"</p>" +
                     "<p>Alteregos: "+ info.results[i].biography["alter-egos"] +"</p>" +
+                    "<p>Ocupacion: "+ info.results[i].work.occupation +"</p>" +
                     "<p>Apariciones: "
         for(var j=0; j<info.results[i].biography.aliases.length; j++){
             detalles += info.results[i].biography.aliases[j] + ". "
@@ -63,9 +64,13 @@ function datos(i){
         detalles += "</p>" + "<p>Lugar de nacimiento: "+ info.results[i].biography["place-of-birth"] +"</p>" +
                     "<p>Especie/Genero: " + info.results[i].appearance.race + " / " + info.results[i].appearance.gender + "</p>" +
                     "<p>Color de ojos/Color de cabello: " + info.results[i].appearance["eye-color"] + " / " + info.results[i].appearance["hair-color"] + "</p>" +
+                    "<p>Tamaño: " + info.results[i].appearance.height[1]  + "</p>" +
+                    "<p>Peso: " + info.results[i].appearance.weight[1]  + "</p>" +
                     "<p>Editorial: " + info.results[i].biography.publisher + "</p>" +
                     "<p>Inclinacion del personaje: " + info.results[i].biography.alignment + "</p>" +
-                    "<img src='" + info.results[i].image.url +"' width='350' height='200' alt='imagen de "+ heroe +"'>" 
+                    "<p>EPrimera aparicion: " + info.results[i].biography["first-appearance"] + "</p></aside>" +
+                    "<aside id='der'><img src='" + info.results[i].image.url +"' width='550' height='400' alt='imagen de "+ heroe +"'></aside>" +
+                    "<div class='espacio'></div>"
                     
     //
     document.getElementById("informacion").innerHTML = detalles;
