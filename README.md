@@ -1,5 +1,11 @@
 # practica00-ConsumoAPIsEnLanube
 
+## Identificar la arquitectura de la aplicacion
+
+La practica implementa una pagina web con una arquitectura cliente-servidor.
+
+![i](/imagenes/i.png?raw=true "Title")
+
 ## Generar informe de resultados.
 
 Para el desarrollo de esta práctica, se descargó una plantilla de Bootstrap la cual es “navbar-fixed” y se ve como la siguiente.
